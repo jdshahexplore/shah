@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,c,max;
+	cout<<"enter three numbers = "<<endl;
+	cin>>a>>b>>c;
+	max=(a>b)?((a>c)?a:c):((b>c)?b:c);
+	cout<<"maximum of two numbers = "<<max;
+	return 0;
+}
